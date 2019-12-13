@@ -1,9 +1,11 @@
 import derigraphatom
+from equationgraph import EquationGraph
 
 class DerigraphComposition:
 
     # class constructor
     def __init__(self):
+        self.G = EquationGraph()
         print("I'm a composition, look at me!")
 
     # evaluate the entire derigraph expression
@@ -15,4 +17,3 @@ class DerigraphComposition:
     # the hierarchy.  Search tree needs to be implemented to perform sanity checking on whether or not the calculus requested is actually possible
 
     # what are the various steps that we need to follow here?  Firstly, we're going to need a way to create a calculation tree of a given mathematical expression
-    
