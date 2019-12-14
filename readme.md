@@ -1,1 +1,1 @@
-Derigraph: bringing modular expressions and realtime equation atomicity to a lightweight Python package.
+Derigraph: bringing modular expressions and realtime equation atomicity to a lightweight Python add-on to NetworkX.
